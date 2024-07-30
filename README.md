@@ -1,4 +1,3 @@
-# Top 25 Largest Nations on the Planet by Land Area
 # Creating column chart with custom data lable and tooltip to visualize top 25 largest nations on the planet by area
 
 We're excited to dive into the creation of a visually stunning Column Chart with customized data labels and tooltip using the [Syncfusion .NET MAUI Charts control](https://www.syncfusion.com/maui-controls/maui-cartesian-charts). 
@@ -17,5 +16,6 @@ Enable the tooltip by setting the [EnableTooltip](https://help.syncfusion.com/cr
 #### Path too long exception
 If you are facing path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
 
+<img width="953" alt="Largest_nation_image" src="https://github.com/user-attachments/assets/b4e778c9-22a4-4d8f-8c14-2ee12023f6d5">
 
 For a step-by-step procedure, refer to the [Column Chart with Custom Data Labels and Tooltips to Showcase the Top 25 Largest Nations by Area Blog]()
