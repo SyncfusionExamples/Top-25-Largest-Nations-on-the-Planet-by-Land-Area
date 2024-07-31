@@ -12,8 +12,8 @@
                  Stroke="Gray"
                  Margin="5,20,5,20">
             <Grid>
-                <!-- Background Image with Opacity -->
-                <Image Source="background2.png"
+                 <!--Background Image with Opacity--> 
+             <Image Source="background.png"
                    Aspect="AspectFill"
                    Opacity="0.7"
                    VerticalOptions="FillAndExpand"
@@ -58,7 +58,6 @@
                         </chart:SfCartesianChart.BindingContext>
 
                         <chart:SfCartesianChart.Resources>
-                            <model:CountryFlagsConverter x:Key="flagsConverter"/>
                             <!--Custom Data Template-->
                             <DataTemplate x:Key="dataTemplate">
                                 <Image Source="{Binding Item.CountryFlags}" 
@@ -66,7 +65,8 @@
                                         WidthRequest="35" />    
                             </DataTemplate>
 
-                            <!--Custom Tooltip Template-->
+                            
+                           <!--Custom Tooltip Template-->       
                             <DataTemplate x:Key="tooltipTemplate">
                                 <Grid RowDefinitions="*,*" ColumnDefinitions="*,Auto">
                                     <Label Text="Country:"
@@ -134,7 +134,8 @@
                             <chart:ChartZoomPanBehavior EnablePanning="True"/>
                         </chart:SfCartesianChart.ZoomPanBehavior>
 
-                        <!--Column Series-->
+                        
+                          <!--Column Series-->
                         <chart:ColumnSeries ItemsSource="{Binding AreaDetails}"
                                         XBindingPath="CountryName" 
                                         YBindingPath="TotalArea"
@@ -157,8 +158,8 @@
                 </Grid>
             </Grid>
         </Border>
+
     </ContentPage.Content>
 </ContentPage>
 
-
-
+
