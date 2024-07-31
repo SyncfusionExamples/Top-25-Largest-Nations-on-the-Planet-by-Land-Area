@@ -51,7 +51,7 @@
                     </Border>
 
                     <!--Column Chart-->
-                    <chart:SfCartesianChart x:Name="chart" Grid.Row="1" Grid.Column="0" Margin="0,15,0,0" >
+                    <chart:SfCartesianChart x:Name="chart" Grid.Row="1" Grid.Column="0" Margin="0,15,0,10" >
 
                         <chart:SfCartesianChart.BindingContext>
                             <model:ViewModel/>
@@ -61,9 +61,9 @@
                             <model:CountryFlagsConverter x:Key="flagsConverter"/>
                             <!--Custom Data Template-->
                             <DataTemplate x:Key="dataTemplate">
-                                <Image Source="{Binding Item.CountryName,Converter={StaticResource flagsConverter}}" 
-                                       HeightRequest="35" 
-                                       WidthRequest="35" />
+                                <Image Source="{Binding Item.CountryFlags}" 
+                                        HeightRequest="35" 
+                                        WidthRequest="35" />    
                             </DataTemplate>
 
                             <!--Custom Tooltip Template-->

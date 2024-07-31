@@ -6,11 +6,13 @@ namespace SampleDemo
     {
         public string CountryName { get; set; }
         public double TotalArea { get; set; }
-       
-        public Model(string countryName, double totalArea)
+        public string CountryFlags { get; set; }
+
+        public Model(string countryName, double totalArea, string flags)
         {
             CountryName = countryName;
             TotalArea = totalArea;
+            CountryFlags = flags;
         }
     }
 }

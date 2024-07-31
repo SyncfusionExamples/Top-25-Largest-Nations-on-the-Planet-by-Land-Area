@@ -32,7 +32,8 @@ namespace SampleDemo
                     string[] data = items.Split(',');
                     string countryName = data[0];
                     double totalArea = Convert.ToDouble(data[1]);
-                    AreaDetails.Add(new Model(countryName, totalArea));
+                    string flagimage = data[0].Replace(" ", "").ToLower() + ".png";
+                    AreaDetails.Add(new Model(countryName, totalArea, flagimage));
                 }
 
             }
