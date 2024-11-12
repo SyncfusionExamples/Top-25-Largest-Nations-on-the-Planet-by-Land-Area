@@ -26,7 +26,7 @@ Enhance the visual appeal of the column series in chart by applying a `gradient`
 
 <img width="953" alt="Largest_nation_image" src="https://github.com/user-attachments/assets/b4e778c9-22a4-4d8f-8c14-2ee12023f6d5">
 
-For a step-by-step procedure, refer to the [Column Chart with Custom Data Labels and Tooltips to Showcase the Top 25 Largest Nations by Area Blog]()
+For a step-by-step procedure, refer to the [Column Chart with Custom Data Labels and Tooltips to Showcase the Top 25 Largest Nations by Area Blog](https://www.syncfusion.com/blogs/post/25-large-countries-maui-column-chart)
 
 ## Troubleshooting
 #### Path too long exception
